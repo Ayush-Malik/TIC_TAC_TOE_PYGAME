@@ -117,6 +117,7 @@ def INPUT():
         entry = False
         tie_entry = True
         screen_data_print()
+        pygame.display.update()
  
 
         
@@ -127,6 +128,7 @@ def INPUT():
     if game_over_entry:
         screen_data_print()
         entry = False
+        pygame.display.update()
 
 
 
